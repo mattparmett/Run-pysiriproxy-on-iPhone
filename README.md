@@ -14,18 +14,22 @@
 
 2.	Edit pysiriproxy's setup.py to exclude dependency on twisted (iphone can't compile native extensions, so we manually install twisted and get rid of dependency).  In setup.py, change:
 
-	```install_requires=[
+	```
+	install_requires=[
 	"biplist>=0.5",
 	"twisted==12.1.0",
 	"pyamp>=1.2",
-	],```
+	],
+	```
 
 	to:
 
-	```install_requires=[
+	```
+	install_requires=[
 	"biplist>=0.5",
 	"pyamp>=1.2",
-	],```
+	],
+	```
 
 3.	Install pysiriproxy (run ```python setup.py install```)
 
