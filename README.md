@@ -7,7 +7,7 @@
 	-	setuptools (py26-setuptools_0.6c11-3_iphoneos-arm.deb)
 	-	zopeinterface (py26-zopeinterface_3.8.0-1_iphoneos-arm.deb)
 	-	twisted (py26-twisted_12.0.0-1_iphoneos-arm.deb)
-	-	cfpropertylist (https://github.com/rodneyrehm/CFPropertyList, clone and run ```python setup.py install```)
+	-	cfpropertylist (https://github.com/bencochran/CFPropertyList, clone and run ```python setup.py install```)
 	-	pyamp (https://code.google.com/p/pyamp/downloads/list, download and run ```python setup.py install```)
 	-	pyopenssl (py26-pyopenssl_0.11-3_iphoneos-arm.deb)
 	-	biplist (sudo easy_install biplist)
